@@ -54,10 +54,8 @@ Thiết bị lưu trữ dữ liệu, ví dụ như trong linux nó là `/dev/sda
 Partitions là các phân vùng của Hard drives, mỗi Hard drives có 4 partition, trong đó partition bao gồm 2 loại là primary partition và extended partition
 
 - **Primary partition:**
-<ul>
-  <li>Phân vùng chính, có thể khởi động</li>
-  <li>Mỗi đĩa cứng có thể có tối đa 4 phân vùng này</li>
-</ul>
+  - Phân vùng chính, có thể khởi động
+  - Mỗi đĩa cứng có thể có tối đa 4 phân vùng này
 
 - **Extended partition:**
 <ul>
