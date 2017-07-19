@@ -3,30 +3,30 @@
 
 ### Mục lục
 
-[1. Giới thiệu về Logical Volume Manager (LVM)] (#Gioithieu)
-- [1.1 LVM là gì] (#LVM)
-- [1.2 Vai trò của LVM] (#Vaitro)
-- [1.3 Các thành phần trong LVM] (#Thanhphan)
+[1. Giới thiệu về Logical Volume Manager (LVM)](#Gioithieu)
+- [1.1 LVM là gì](#LVM)
+- [1.2 Vai trò của LVM](#Vaitro)
+- [1.3 Các thành phần trong LVM](#Thanhphan)
 
-[2. Hướng dẫn sử dụng LVM] (#Huongdan)
-- [2.1 Chuẩn bị] (#Chuanbi)
-- [2.2 Tạo Logical Volume trên LVM] (#Taolvm)
-- [2.3 Thay đổi dung lượng Logical Volume trên LVM] (#Thaydoilv)
-- [2.4 Thay đổi dung lượng Volume Group trên LVM] (#Thaydoivg)
-- [2.5 Xóa Logical Volume, Volume Group, Physical Volume] (#Xoa)
+[2. Hướng dẫn sử dụng LVM](#Huongdan)
+- [2.1 Chuẩn bị](#Chuanbi)
+- [2.2 Tạo Logical Volume trên LVM](#Taolvm)
+- [2.3 Thay đổi dung lượng Logical Volume trên LVM](#Thaydoilv)
+- [2.4 Thay đổi dung lượng Volume Group trên LVM](#Thaydoivg)
+- [2.5 Xóa Logical Volume, Volume Group, Physical Volume](#Xoa)
 
-[3. Tổng kết] (#Tongket)
+[3. Tổng kết](#Tongket)
 
 <a name="Gioithieu"></a>
 ## 1.Giới thiệu về Logical Volume Manager (LVM)
 
 <a name="LVM"></a>
-###1.1 LVM là gì
+### 1.1 LVM là gì
 
 Logical Volume Manager (LVM): là phương pháp cho phép ấn định không gian đĩa cứng thành những logical Volume khiến cho việc thay đổi kích thước trở nên dễ dàng hơn (so với partition). Với kỹ thuật Logical Volume Manager (LVM) bạn có thể thay đổi kích thước mà không cần phải sửa lại table của OS. Điều này thật hữu ich với những trường hợp bạn đã sử dụng hết phần bộ nhớ còn trống của partition và muốn mở rộng dung lượng của nó
 
 <a name="Vaitro"></a>
-###1.2 Vai trò của LVM
+### 1.2 Vai trò của LVM
 
 LVM là kỹ thuật quản lý việc thay đổi kích thước lưu trữ của ổ cứng
 
@@ -39,7 +39,7 @@ LVM là kỹ thuật quản lý việc thay đổi kích thước lưu trữ c�
 </ul>
 
 <a name="Thanhphan"></a>
-###1.3 Các thành phần trong LVM
+### 1.3 Các thành phần trong LVM
 
 **Mô hình các thành phần trong LVM**
 
