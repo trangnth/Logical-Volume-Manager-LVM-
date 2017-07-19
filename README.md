@@ -55,13 +55,13 @@ Partitions là các phân vùng của Hard drives, mỗi Hard drives có 4 parti
 
 - **Primary partition:**
 <ul>
-<li>Phân vùng chính, có thể khởi động</li>
-<li>Mỗi đĩa cứng có thể có tối đa 4 phân vùng này</li>
+  <li>Phân vùng chính, có thể khởi động</li>
+  <li>Mỗi đĩa cứng có thể có tối đa 4 phân vùng này</li>
 </ul>
 
 - **Extended partition:**
 <ul>
-<li>Phân vùng mở rộng, có thể tạo những vùng luân lý</li>
+  <li>Phân vùng mở rộng, có thể tạo những vùng luân lý</li>
 </ul>
 
 **Physical Volumes**
