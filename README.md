@@ -125,25 +125,25 @@ Từ các Hard Drives trên hệ thống, bạn tạo các partition. Ở đây,
 
 <img src="http://i.imgur.com/ezJlmge.png">
 
-<li>Trong đó bạn chọn `n` để bắt đầu tạo partition</li>
+- Trong đó bạn chọn `n` để bắt đầu tạo partition
 
-<li>Bạn chọn `p` để tạo partition primary</li>
+- Bạn chọn `p` để tạo partition primary
 
-<li>Bạn chọn `1` để tạo partition primary 1</li>
+- Bạn chọn `1` để tạo partition primary 1
 
-<li>Tại `First sector (2048-20971519, default 2048)` bạn để mặc định</li>
+- Tại `First sector (2048-20971519, default 2048)` bạn để mặc định
 
-<li>Tại `Last sector, +sectors or +size{K,M,G} (2048-20971519, default 20971519)` bạn chọn `+1G` để partition bạn tạo ra có dung lượng 1 G</li>
+- Tại `Last sector, +sectors or +size{K,M,G} (2048-20971519, default 20971519)` bạn chọn `+1G` để partition bạn tạo ra có dung lượng 1 G
 
-<li>Bạn chọn `w` để lưu lại và thoát.</li>
+- Bạn chọn `w` để lưu lại và thoát.
 
 Tiếp theo bạn thay đổi định dạng của partition vừa mới tạo thành LVM
 
 <img src="http://i.imgur.com/Ih9riPU.png">
 
-<li>Bạn chọn `t` để thay đổi định dạng partition</li>
+- Bạn chọn `t` để thay đổi định dạng partition
 
-<li>Bạn chọn `8e` để đổi thành LVM</li>
+- Bạn chọn `8e` để đổi thành LVM
 
 Tương tự, bạn tạo thêm các partition primary từ sdb
 
