@@ -58,9 +58,7 @@ Partitions là các phân vùng của Hard drives, mỗi Hard drives có 4 parti
   - Mỗi đĩa cứng có thể có tối đa 4 phân vùng này
 
 - **Extended partition:**
-<ul>
-  <li>Phân vùng mở rộng, có thể tạo những vùng luân lý</li>
-</ul>
+  - Phân vùng mở rộng, có thể tạo những vùng luân lý
 
 **Physical Volumes**
 
@@ -89,16 +87,10 @@ Khi dung lượng của Logical Volume được sử dụng hết ta có thể �
 Ví dụ bạn có 4 ổ đĩa mỗi ổ 5GB khi bạn kết hợp nó lại thành 1 volume group 20GB, và bạn có thể tạo ra 2 logical volumes mỗi disk 10GB
 
 **File Systems**
-
-<ul>
-<li>Tổ chức và kiểm soát các tập tin</li>
- 
-<li>Được lưu trữ trên ổ đĩa cho phép truy cập nhanh chóng và an toàn</li>
-
-<li>Sắp xếp dữ liệu trên đĩa cứng máy tính</li>
-
-<li>Quản lý vị trí vật lý của mọi thành phần dữ liệu</li>
-</ul>
+  - Tổ chức và kiểm soát các tập tin
+  - Được lưu trữ trên ổ đĩa cho phép truy cập nhanh chóng và an toàn
+  - Sắp xếp dữ liệu trên đĩa cứng máy tính
+  - Quản lý vị trí vật lý của mọi thành phần dữ liệu
 
 <a name="Huongdan"></a>
 ## 2. Hướng dẫn sử dụng LVM
