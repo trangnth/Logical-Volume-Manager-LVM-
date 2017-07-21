@@ -1,10 +1,10 @@
-#Các tính năng nâng cao của LVM
+# Các tính năng nâng cao của LVM
 
 Chuẩn bị:
 Máy ảo chạy hệ điều hành Ubuntu 14.04 có chế độ LVM cho ổ đĩa.
 Đã thêm các ổ cứng mới sau khi cài đặt
 
-###Mục lục:
+### Mục lục:
 [1 Tính năng Snapshot ](#1)
 
 - [1.1 Tạo Snapshot](#1.1)
