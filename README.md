@@ -354,6 +354,8 @@ Cuối cùng là xóa Physical Volume:
 
 <img src="http://i.imgur.com/4KrrO9u.png">
 
+*Nếu trên partition vẫn đang có dữ liệu thì phải di chuyển đi chỗ khác bằng lệnh **pvmove** rồi xóa*
+
 Vậy là mình đã hoàn thành một bài lab đơn giản về LVM.
 
 <a name="Tongket"></a>
